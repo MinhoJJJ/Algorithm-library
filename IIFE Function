@@ -1,0 +1,8 @@
+		// Immediately-invoked function excpression 즉시 작동하는 함수식
+    // 해당 함수 안에 있는 것을 바로 실행할 수 있다.
+    // 기존의 방식은 function hi(){}   -> hi(); 였던 것을 줄여서 사용할 수 있다.
+    
+    (function (){
+			showLoadingBar();
+			setTimeout(function(){)
+		})();
