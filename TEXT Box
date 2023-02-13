@@ -1,0 +1,3 @@
+$("").val('');   //체크박스 내용 초기화
+<input type="text" id="a" name="a" class="a" placeholder="내용" >    // 체크박스 생성
+
