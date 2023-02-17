@@ -1,0 +1,12 @@
+//서비스단에 작성		
+    
+    String clientIP = request.getHeader("Proxy-Client-IP");
+			if(clientIP == null) {
+				clientIP = request.getHeader("WL-Proxy-Client-IP");
+				if(clientIP == null) {
+					clientIP = request.getHeader("X-Forwared-For");
+					if(clientIP == null) {
+						clientIP = request.getRemoteAddr();
+					}
+				}
+			}
