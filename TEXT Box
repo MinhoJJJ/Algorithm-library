@@ -1,3 +1,5 @@
-$("").val('');   //체크박스 내용 초기화
+
+$("").val();   //TEXT박스 내용 가져오기
+$("").val("");   //TEXT박스 내용 초기화
 <input type="text" id="a" name="a" class="a" placeholder="내용" >    // text 박스 생성
 
