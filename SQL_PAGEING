@@ -1,0 +1,1 @@
+AND  ROWNUM <![CDATA[ >= ]]>#{startPage} AND ROWNUM <![CDATA[ <= ]]>#{endPage}
