@@ -1,2 +1,5 @@
 COMMENT ON COLUMN 
-    [테이블명].[컬럼명] IS '사용날짜';
+    [테이블명].[컬럼명] IS '사용날짜';   // 컬럼추가
+    
+  COMMENT ON COLUMN 
+    [테이블명].[컬럼명] IS '';   // 컬럼삭제
