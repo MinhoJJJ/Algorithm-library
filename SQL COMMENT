@@ -1,0 +1,2 @@
+COMMENT ON COLUMN 
+    [테이블명].[컬럼명] IS '사용날짜';
