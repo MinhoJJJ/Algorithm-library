@@ -8,8 +8,12 @@ COMMENT ON COLUMN
     [테이블명].[컬럼명] IS '수정문자열';   // 컬럼수정
         
 SELECT * 
-    FROM ALL_COL_COMMENTS
-WHERE TABLE_NAME='테이블명';   // 해당 테이블 COMMENT 조회
+FROM ALL_COL_COMMENTS
+WHERE TABLE_NAME='테이블명';   // 해당 테이블의 컬럼 COMMENT 조회
+
+SELECT *
+FROM ALL_TAB_COMMENTS
+WHERE TABLE_NAME='테이블이름';
 
 SELECT * 
 FROM ALL_TAB_COMMENTS;  // 스키마내의 모든 COMMENT 조회
