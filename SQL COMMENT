@@ -3,3 +3,7 @@ COMMENT ON COLUMN
     
   COMMENT ON COLUMN 
     [테이블명].[컬럼명] IS '';   // 컬럼삭제
+    
+    
+     COMMENT ON COLUMN 
+    [테이블명].[컬럼명] IS '수정문자열';   // 컬럼수정
