@@ -1,0 +1,7 @@
+	/ 체크박스가 있고 텍스트 박스가 있으며, 체크박스가 클릭된 상태라면 텍스트박스 수정 불가능
+  
+  $('#checkAll').click(function(){
+		var checked = $('#checkAll').is(':checked');
+		if(checked) $("#textBox").attr("readonly", true);
+		else $("#textBox").attr("readonly", false);
+	});
