@@ -3,6 +3,9 @@
    <h4 @click="open=true; cnt=i">{{a.title}}</h4>
    <h4>{{a.price}}원</h4>
   </div>
+
+  <Post :게시물="게시물[i]" v-for="(a,i) in 게시물" :key="i"/>
+
   
   <!-- 뷰에서 for은 v-for="?? in ?? " :key="i"
   <!--     가 기본값이다 자바의 for each문과 비슷하다  자바에서 for(int i:array)로 표현된것은
