@@ -17,3 +17,7 @@ export default {
     Container
   }
 }
+////  이름 안나오는 오류 해결법   / pakage.json
+        "rules": {
+          "vue/multi-word-component-names": "off"
+    }
