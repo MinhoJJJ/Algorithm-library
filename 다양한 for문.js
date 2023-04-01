@@ -24,7 +24,6 @@ for(HashMap<String, Object> Data:list){}
 // 해당 LIST에서 인덱스를 넣고 싶을때
 HashMap<String, Object> nextData = list.get(cnt+1);
 // 해당 FOR문에서 List i번째가가 Data로 바뀌고 그 Data를 가지고 for반복문을 돌리고 싶을때
-for(String key : Data.keySet()){}
-
+for(String key : Data.keySet()){};
 
 
