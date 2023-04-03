@@ -1,3 +1,4 @@
+<script>
 function fnMinhoListAjax() {
     $.ajax({
         type     : 'POST' ,
@@ -25,3 +26,7 @@ function fnMinhoListAjax() {
         }
     });
 }
+</script>
+<body>
+	<h3 id="my-element" ></h3>
+</body>
