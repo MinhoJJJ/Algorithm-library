@@ -2,12 +2,12 @@
 function fnMinhoListAjax() {
     $.ajax({
         type     : 'POST' ,
-		async : false,
+	async 	 : false,
         url      : '/minhoList.do',
-		data     : {},
+	data     : {},
         dataType : 'json',
         success  : function (data) {
-					   console.log("나실행쓰");
+			   console.log("나실행쓰");
         	           var html = '';
         	               
         	                html += '			<div>';
@@ -15,9 +15,9 @@ function fnMinhoListAjax() {
         	                html += '					<div class>';						   
         	                html += '						<p> 제목:'+ data.detailView.title + '</p>';
         	                html += '						<span> 내용:'+ data.detailView.content + '</span>';
-							            html += '			    </div>';
-							            html += '		    </div>';
-							            html += '	    </div>';   	                
+				html += '			    </div>';
+				html += '		    </div>';
+				html += '	    </div>';   	                
 
 
         	                document.getElementById('my-element').innerHTML = html;
