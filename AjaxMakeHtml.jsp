@@ -15,9 +15,9 @@ function fnMinhoListAjax() {
         	                html += '					<div class>';						   
         	                html += '						<p> 제목:'+ data.detailView.title + '</p>';
         	                html += '						<span> 내용:'+ data.detailView.content + '</span>';
-				html += '			    </div>';
-				html += '		    </div>';
-				html += '	    </div>';   	                
+				html += '			    		</div>';
+				html += '		    		</div>';
+				html += '	    		</div>';   	                
 
 
         	                document.getElementById('my-element').innerHTML = html;
