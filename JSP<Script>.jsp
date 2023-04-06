@@ -17,3 +17,6 @@
 $(".first").nextAll().css("background-color", "yellow");   // nextAll은 .first뿐만 아니라 같은 number요소에 있는 모든 것들을 선택해줍니다.
 
 
+<div class="modal fade modalEmpty"id="MINHOMODAL" data-backdrop="true" data-keyboard="true"></div>  // 이렇게하면 모달 밖에 클릭하면 모달 나가짐
+<div class="modal fade modalEmpty"id="MINHOMODAL" data-backdrop="static" data-keyboard="false"></div>  // 특정 버튼 없으면 모달창 못나감
+
