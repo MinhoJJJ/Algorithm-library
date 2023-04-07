@@ -26,4 +26,19 @@ HashMap<String, Object> nextData = list.get(cnt+1);
 // 해당 FOR문에서 List i번째가가 Data로 바뀌고 그 Data를 가지고 for반복문을 돌리고 싶을때
 for(String key : Data.keySet()){};
 
+// 이늄 Enum
+<c:choose>
+	<c:when test="${minho eq '21'}">
+		<tag:enum codeGrp="minho1" />
+	</c:when>
+	<c:when test="${minho eq '22'}">
+		<tag:enum codeGrp="minho2" />
+	</c:when>
+	<c:when test="${minho eq '23'}">
+		<tag:enum codeGrp="minho3" />
+	</c:when>
+	<c:otherwise>
+		<tag:enum codeGrp="minho4" />
+	</c:otherwise>
+</c:choose>
 
