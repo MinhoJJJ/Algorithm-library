@@ -6,11 +6,23 @@ $('#MINHO'+1)  = ID속성값이 MINHO1인 요소를 선택하게함
 <div class="container">
   <div class="item-1"></div>
   <div class="item-2"></div>
-  <div class="item-3"></div>
+  <div class="item-3">Input 1: <input type="text" value="Value 1"></div>
+  <div class="item-3">Input 2: <input type="text" value="Value 2"></div>
   <div class="item-4"></div>
 </div>
 
 $('.item-2').nextAll(); // 선택된 요소 다음에 나오는 모든 형제 요소를 선택
-$('.item-2').nextAll('div.item-3'); // .item-3 클래스를 가진 요소만 선택합니다.
+
+
+$('.item-2').nextAll('div.item-3'); // .item-3 클래스를 가진 요소만 선택합니다.  
+//결과 
+ <div class="item-3" id="minho">Input 1: <input type="text" value="Value 1"></div>
+ <div class="item-3">Input 2: <input type="text" value="Value 2"></div>
+
+// .item2-2의 다음 요소 중에 클래스가 .item-3인 것에서 id의 요소값을 가져오세요.
+$('.item-2').nextAll('.item-3').attr('id')
+
+// .item2-2의 다음 요소 중에 아이디가 MINHO인 것의 VALUE값을 가져오세요.
+$('.item-2').nextAll('[id^MINHO]').val();		//input, select, textarea와 같은 폼 요소일 경우에만 사용할 수 있습니다
 
 
