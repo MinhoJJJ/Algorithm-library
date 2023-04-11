@@ -7,7 +7,6 @@ $('#MINHO'+1)  = ID속성값이 MINHO1인 요소를 선택하게함
   <div class="item-1"></div>
   <div class="item-2"></div>
   <div class="item-3">Input 1: <input type="text" value="Value 1"></div>
-  <div class="item-3">Input 2: <input type="text" value="Value 2"></div>
   <div class="item-4"></div>
 </div>
 
