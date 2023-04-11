@@ -11,8 +11,9 @@ $('#MINHO'+1)  = ID속성값이 MINHO1인 요소를 선택하게함
   <div class="item-4"></div>
 </div>
 
-$('.item-2').nextAll(); // 선택된 요소 다음에 나오는 모든 형제 요소를 선택
+var input1Label = $('.item-3').parent('.container').prev().text(); // "Input 1: "    // input 1을 출력하는 방법 1
 
+$('.item-2').nextAll(); // 선택된 요소 다음에 나오는 모든 형제 요소를 선택
 
 $('.item-2').nextAll('div.item-3'); // .item-3 클래스를 가진 요소만 선택합니다.  
 //결과 
@@ -44,10 +45,3 @@ $(".first").nextAll().css("background-color", "yellow");   // nextAll은 .first�
 <div class="modal fade modalEmpty"id="MINHOMODAL" data-backdrop="static" data-keyboard="false"></div>  // 특정 버튼 없으면 모달창 못나감
 
 
-
-// parent와 next를 이용한기법
-<div class="minho Cell">
-  <div class="minho CellBase">Text content</div>
-</div>
-
-var text = $('.Cell').parent('.minho.Cell').next('.minho.CellBase').text(); // "Text content"
