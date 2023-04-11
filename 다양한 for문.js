@@ -1,7 +1,7 @@
 // 1. jsp 내부에서 for each문
 
 <td class="sample" colspan="3">
-	<c:forEach var="sampleList" items="${sampleList}" varStatus="loop">	
+	<c:forEach var="sampleList" items="${sampleList}" varStatus="loop"> //varStatus 변수는 사용자가 지정한 이름으로 설정할 수 있습니다.
 		<c:if test="${!loop.last}">
 			${fn:substring(sampleList,14,18)},
 		</c:if>
@@ -14,7 +14,7 @@
 // 2. forEach Select문에 넣는 경우
 <select id="minho" name="minho" class="selMinho">
 	<option value="">전체</option>
-	<c:forEach var="minhoCode" items="${minhoCode}" varStatus="status">
+	<c:forEach var="minhoCode" items="${minhoCode}" varStatus="status"> //varStatus 변수는 사용자가 지정한 이름으로 설정할 수 있습니다.
 	<option value="${minhoCode.codeVal}">${minhoCode.codeNm}</option>
 	</c:forEach>
 </select>
@@ -41,4 +41,6 @@ for(String key : Data.keySet()){};
 		<tag:enum codeGrp="minho4" />
 	</c:otherwise>
 </c:choose>
+//tag:enum은 JSP 커스텀 태그일 가능성이 높습니다. JSP 커스텀 태그는 개발자가 자신의 태그를 정의하여 JSP 페이지에서 사용할 수 있도록 해주는 기능입니다.
 
+$('.Minho').each(function() {}); // Html에서 Minho 클래스의 갯수만큼 반복문을 돌린다.
