@@ -5,7 +5,7 @@ function fnMinhoListAjax() {
 	async 	 : false,
         url      : '/minhoList.do',
 	data     : {},
-        dataType : 'json',
+        dataType : 'json',s
         success  : function (data) {
 			   console.log("나실행쓰");
         	           var html = '';
