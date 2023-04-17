@@ -48,10 +48,10 @@ function tellMe(){
   		$("#tell").html("말해");          // 버튼의 이름값을 바꿔준다.
   	  $("#tell").attr("id","comment");  // 버튼의 id값을 바꿔준다.  
 }
-		<div id="Minho">
-					<iframe                 // 아이프레임을 만들고 해당 프레임에 값을 넣어준다.
-							marginwidth="0px" marginheight="0px"
-							frameborder="no"  scrolling="no" align="center" style="width:100%;"
-							src="/minho.do?MINHO_NDX=${MINHO_NDX}"
-					></iframe>
-	 	</div>
+<div id="Minho">
+	<iframe                 // 아이프레임을 만들고 해당 프레임에 값을 넣어준다.
+		marginwidth="0px" marginheight="0px"
+		frameborder="no"  scrolling="no" align="center" style="width:100%;"
+		src="/minho.do?MINHO_NDX=${MINHO_NDX}"
+	></iframe>
+</div>
