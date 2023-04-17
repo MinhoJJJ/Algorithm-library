@@ -43,4 +43,15 @@ $(".first").nextAll().css("background-color", "yellow");   // nextAll은 .first�
 <div class="modal fade modalEmpty"id="MINHOMODAL" data-backdrop="true" data-keyboard="true"></div>  // 이렇게하면 모달 밖에 클릭하면 모달 나가짐
 <div class="modal fade modalEmpty"id="MINHOMODAL" data-backdrop="static" data-keyboard="false"></div>  // 특정 버튼 없으면 모달창 못나감
 
-
+function tellMe(){
+  		console.log($(this).attr("id"));  // 버튼에 해당 함수가 들어있으면 해당 버튼의 id값을 가져온다.
+  		$("#tell").html("말해");          // 버튼의 이름값을 바꿔준다.
+  	  $("#tell").attr("id","comment");  // 버튼의 id값을 바꿔준다.  
+}
+		<div id="Minho">
+					<iframe                 // 아이프레임을 만들고 해당 프레임에 값을 넣어준다.
+							marginwidth="0px" marginheight="0px"
+							frameborder="no"  scrolling="no" align="center" style="width:100%;"
+							src="/minho.do?MINHO_NDX=${MINHO_NDX}"
+					></iframe>
+	 	</div>
