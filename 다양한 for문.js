@@ -44,3 +44,4 @@ for(String key : Data.keySet()){};
 //tag:enum은 JSP 커스텀 태그일 가능성이 높습니다. JSP 커스텀 태그는 개발자가 자신의 태그를 정의하여 JSP 페이지에서 사용할 수 있도록 해주는 기능입니다.
 
 $('.Minho').each(function() {}); // Html에서 Minho 클래스의 갯수만큼 반복문을 돌린다.
+$.each(List, function(key, val));  // 가져온 배열이나 객체를 대상으로 for 반복문을 돌린다.
