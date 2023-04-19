@@ -5,4 +5,4 @@
     (function (){
 			showLoadingBar();
 			setTimeout(function(){)
-		})();
+		})();;;
