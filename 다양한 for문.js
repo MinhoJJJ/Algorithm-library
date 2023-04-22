@@ -1,4 +1,4 @@
-// 1. jsp 내부에서 for each문
+// 1. jsp 내부에서 for each문a
 
 <td class="sample" colspan="3">
 	<c:forEach var="sampleList" items="${sampleList}" varStatus="loop"> //varStatus 변수는 사용자가 지정한 이름으로 설정할 수 있습니다.
