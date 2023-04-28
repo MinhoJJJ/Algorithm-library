@@ -45,4 +45,8 @@ for(String key : Data.keySet()){};
 
 $('.Minho').each(function() {}); // Html에서 Minho 클래스의 갯수만큼 반복문을 돌린다.
 $.each(List, function(key, val));  // 가져온 배열이나 객체를 대상으로 for 반복문을 돌린다.
+       
+$.each(data,function(key,input){ input.name, input.value; }); 
+//jQuery에서 제공하는 for반복문으로 input.name은 data의 key값들을 input.value는 data의 밸류값들을 가져옵니다.
+
 $("#"+ft+" #ai").each(function(i,e){  }   FT의 하위요소 AI요소를 반복문을 돌린다.    
