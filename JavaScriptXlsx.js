@@ -20,3 +20,6 @@ function FileSelect(e){                               // FileSelect 함수를 �
     };
     reader.readAsBinaryString(files[0]);               // FileReader 객체를 사용하여 파일을 읽어옵니다. 이 때, 파일의 첫 번째 인덱스(files[0])를 이용하여 첫 번째 파일을 읽어옵니다.
 }
+
+
+//
