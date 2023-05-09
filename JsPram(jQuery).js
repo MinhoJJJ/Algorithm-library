@@ -12,6 +12,8 @@ $("img#myImage").attr("src", "new-image.jpg"); // 값 바꾸기
 $("text").text(); 
 $("text").text("New Text");  // 값 바꾸기
 
+<c:set var="message" value="Hello World"/>// 는 message 라는 변수에 "Hello World"라는 값을 할당합니다.
+
 
 
 $(".hi")               // jQuery 라이브러리에서 제공하는 함수 중 하나로 html단에서 class="hi"인 것을 찾아줍니다.
