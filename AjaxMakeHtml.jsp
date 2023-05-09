@@ -4,9 +4,9 @@ function fnMinhoListAjax() {
         type     : 'POST' ,
 	async 	 : false,
         url      : '/minhoList.do',
-	data     : {},
-        dataType : 'json',s
-        success  : function (data) {
+	data     : {},    // 서버로 보낼 데이터
+        dataType : 'json'
+        success  : function (data) {     // 서버로부터 받아온 것들을 data에 넣었음
 			   console.log("나실행쓰");
         	           var html = '';
         	               
