@@ -23,6 +23,14 @@ $('h1 + p')            // <h1> 요소 다음에 오는 첫 번째 <p> 요소를 
 $('[name="my-input"]') // name="my-input"인 모든 요소를 선택합니다.
 ${param}               // Model 객체에서 param이라는 이름으로 저장된 변수의 값을 출력합니다.
 
+<c:set>: 변수를 설정합니다.
+<c:if>: 조건문 처리를 수행합니다.
+<c:choose>와 <c:when>: 다중 조건문 처리를 수행합니다.
+<c:forEach>: 반복문 처리를 수행합니다.
+<c:import>: 다른 JSP 페이지를 가져옵니다.
+<c:url>: URL을 생성합니다.
+<c:redirect>: 페이지를 리다이렉트합니다.
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> : JSTL 태그라이브러리에서 core 태그 라이브러리를
 의미하며 core 태그를 사용할때 c를 붙여서 사용하도록 하는 것입니다.
 
