@@ -4,4 +4,4 @@
 		var checked = $('#checkAll').is(':checked');
 		if(checked) $("#textBox").attr("readonly", true);
 		else $("#textBox").attr("readonly", false);
-	});
+	});;
