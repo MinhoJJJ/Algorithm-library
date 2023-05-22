@@ -1,0 +1,5 @@
+// 한글화
+Dfile.encoding=UTF-8
+Dconsole.encoding=UTF-8
+
+TOMCAT -> Edit Configuration -> server -> VMoption: -Dfile.encoding=UTF-8 
