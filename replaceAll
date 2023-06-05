@@ -1,0 +1,19 @@
+//replaceAll()
+const originalString = "Hello, World! Hello, World!";
+const replacedString = originalString.replaceAll("Hello", "Hi");
+console.log(replacedString);
+// 출력: "Hi, World! Hi, World!"
+
+
+// replace()
+const originalString = "Hello, World! Hello, World!";
+const replacedString = originalString.replace("Hello", "Hi");
+console.log(replacedString);
+// 출력: "Hi, World! Hello, World!"
+
+
+// 정규식 + replace()
+const originalString = "Hello123, World456!";
+const replacedString = originalString.replace(/\d/g, "");
+console.log(replacedString);
+// 출력: "Hello, World!"
