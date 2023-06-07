@@ -53,3 +53,17 @@ var param = "&Minho=" + minho;
 		System.err.println(name);
 		return 
 	}
+
+
+
+//1. 속성 설정하기
+javascript
+Copy code
+// 모든 <input> 요소의 disabled 속성을 true로 설정
+$('input').prop('disabled', true);
+
+// 특정 요소의 checked 속성을 true로 설정
+$('#myCheckbox').prop('checked', true);
+
+// 이미지 요소의 src 속성을 변경
+$('img').prop('src', 'new_image.jpg');
