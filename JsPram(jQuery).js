@@ -67,3 +67,7 @@ $('#myCheckbox').prop('checked', true);
 
 // 이미지 요소의 src 속성을 변경
 $('img').prop('src', 'new_image.jpg');
+
+// 셀렉트 박스 옵션 선택 못하도록 고정
+$("#Tmon option").not(":selected").attr("disabled", true);
+
